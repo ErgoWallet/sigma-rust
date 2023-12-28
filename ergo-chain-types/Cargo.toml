@@ -11,7 +11,7 @@ exclude = [
 ]
 
 [lib]
-crate-type = ["cdylib", "rlib"]
+crate-type = ["rlib"]
 
 [dependencies]
 thiserror = { workspace = true }
