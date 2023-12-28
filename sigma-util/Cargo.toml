@@ -8,7 +8,7 @@ edition.workspace = true
 description = "Ergo primitives"
 
 [lib]
-crate-type = ["cdylib", "rlib"]
+crate-type = ["rlib"]
 
 [dependencies]
 blake2 = { workspace = true }
