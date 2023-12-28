@@ -9,7 +9,7 @@ description = "ErgoTree interpreter"
 exclude = ["proptest-regressions/*"]
 
 [lib]
-crate-type = ["cdylib", "rlib"]
+crate-type = ["rlib"]
 
 [dependencies]
 sigma-util = { workspace = true }
