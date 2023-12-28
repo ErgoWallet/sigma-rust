@@ -9,7 +9,7 @@ description = "ErgoTree IR, serialization"
 exclude = ["proptest-regressions/*"]
 
 [lib]
-crate-type = ["cdylib", "rlib"]
+crate-type = ["rlib"]
 
 [dependencies]
 sigma-ser = { workspace = true }
